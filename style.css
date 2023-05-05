@@ -1,0 +1,38 @@
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grid-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.grid div {
+    border: 3px solid transparent;
+   
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 250px;
+    height: 125px;
+}
+.resetButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.resetButton Button {
+    background-color:  rgb(174, 33, 33);
+    width: 500px;
+    height: 75px;
+    border: 3px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-size: 20px;
+    font-size: bold;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
